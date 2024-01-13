@@ -1,0 +1,135 @@
+.join-new,
+.page-arrow {
+  background-color: #3498db; /* Background color for the blue box */
+  color: #fff; /* Text color for the blue box */
+  padding: 8px 16px; /* Padding for the blue box */
+}
+
+.carousel-caption {
+  padding: 20px;
+  left: 20%;
+  width: 50%;
+  bottom: 40%;
+  text-align: left;
+}
+
+.carousel-caption h5,
+.carousel-caption h2,
+.carousel-caption p {
+  color: #fff; 
+}
+
+.carousel-caption h6 {
+  color: blue; /* Set the color of h6 to blue */
+}
+
+
+.carousel-caption button {
+  margin-top: 10px;
+}
+
+.carousel-inner {
+  height: 600px; 
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  opacity: 0.7; 
+}
+
+.carousel-caption {
+  color: white;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #d2d2d2;
+  text-align: center;
+  padding: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.box i {
+  font-size: 36px;
+}
+
+.box-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.box-paragraph {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.box:hover {
+background-color: #1a5276; /* Change to a darker shade of blue on hover */
+color: #fff;
+transform: translateY(-10px); /* Move the box 10 pixels up on hover */
+}
+.about-us-title {
+    color: blue;
+    position: relative;
+    margin-bottom: 5px;
+  }
+
+  .category img,
+  .course-item img {
+    transition: 0.5s;
+  }
+
+  .img-mark-div {
+    min-height: 350px;
+  }
+
+  .img-mark {
+    object-fit: cover;
+  }
+
+  .cat-text {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+
+  .section-title {
+    background-color: #fff;
+    color: var(--primary);
+    padding: 1rem 3rem;
+  }
+
+  .category a:hover img,
+  .course-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .text-course {
+    color: var(--primary);
+  }
+
+  .img-mark-div:hover img {
+    transform: scale(1.1);
+  }
+  
